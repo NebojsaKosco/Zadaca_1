@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+.image{
+    height: 40%;
+}
+.content-biography{
+    max-width: 1170px;
+    width: 100%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+    -webkit-box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.75);
+  
+
+}
+.content-one{
+        width: 30%;
+        background-color: rgb(37, 37, 37);
+        color: aliceblue;
+        padding: 20px;
+        height: 100%;
+        border-radius: 12px 0 0 12px;
+    }
+    .content-two{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.name-photo{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.paragraph-name{
+    letter-spacing: 2px;
+    width: 100%;
+}
+.hedering{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#5F9EA1;
+}
+
+.conainer-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.con-one{
+    padding-right: 250px;
+}
+.paragraph-about{
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+.name{
+    color: gray;
+    font-style: italic;
+}
+.year{
+    color:#5F9EA1;
+    
+}
+.line{
+    height: 2px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    margin-right: 40px;
+}
+.educacion{
+    background-color: rgb(211, 211, 211);
+    padding-left: 10px;
+    height: 34%;
+    width: 100%;
+}
+
+.about-me{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    height: 33%;
+}
+.conte{
+    background-color: #92b9bb;
+    height: 100vh;
+    position: relative;
+    
+}
+@media (min-width: 920px) {
+    .content-biography {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:stretch ;
+        
+    }
+
+  }
+  
